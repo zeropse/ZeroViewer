@@ -29,20 +29,23 @@
 		0F8CE2C22D206FB500D32628 /* ZeroViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeroViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0FD208CC2D207E2F00820B6D /* Exceptions for "ZeroViewer" folder in "ZeroViewer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 0F8CE2A62D206FB200D32628 /* ZeroViewer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		0F8CE2A92D206FB200D32628 /* ZeroViewer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0FD208CC2D207E2F00820B6D /* Exceptions for "ZeroViewer" folder in "ZeroViewer" target */,
+			);
 			path = ZeroViewer;
-			sourceTree = "<group>";
-		};
-		0F8CE2BB2D206FB500D32628 /* ZeroViewerTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ZeroViewerTests;
-			sourceTree = "<group>";
-		};
-		0F8CE2C52D206FB500D32628 /* ZeroViewerUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ZeroViewerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -76,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				0F8CE2A92D206FB200D32628 /* ZeroViewer */,
-				0F8CE2BB2D206FB500D32628 /* ZeroViewerTests */,
-				0F8CE2C52D206FB500D32628 /* ZeroViewerUITests */,
 				0F8CE2A82D206FB200D32628 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +131,6 @@
 			dependencies = (
 				0F8CE2BA2D206FB500D32628 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				0F8CE2BB2D206FB500D32628 /* ZeroViewerTests */,
-			);
 			name = ZeroViewerTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +150,6 @@
 			);
 			dependencies = (
 				0F8CE2C42D206FB500D32628 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				0F8CE2C52D206FB500D32628 /* ZeroViewerUITests */,
 			);
 			name = ZeroViewerUITests;
 			packageProductDependencies = (
@@ -401,6 +396,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZeroViewer/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -428,6 +424,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZeroViewer/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
